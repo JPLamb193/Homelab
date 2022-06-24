@@ -30,10 +30,11 @@ Storage:
            12 HDDs used for mass storage in RAID6 or RAID10.
            8 SSDs in raid 5/10 for quick read/write storage such as databases.
            Each server has 2 internal SSDs in RAID1 for redundancy that the OSes and VMs are stored on.
-
-           3-2-1 backup philosophy:
+           
+3-2-1 backup philosophy:
            3 copies of all data that I want to keep
            2 on-prem copies, 1 on the SSDs, 1 on the HDDs
            1 Copy in the cloud (Wasabi or Backblaze)
            Any exceptions to this policy should be documented and justified
            Initial exceptions: Movies/Mass Media
+           Special Cases: Personal media (HDD copy and cloud copy)
