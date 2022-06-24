@@ -4,7 +4,7 @@ Hardware:\n
            R730xd - 2x E5-2620v3, 32GB, 2TB SSD  
            R630 - 1x E5-2620v3, 12GB, 300GB HDD  
 
-Services:\n
+Services:  
            [Proxmox](https://www.proxmox.com/en/)  
            [TrueNAS Scale](https://www.truenas.com/truenas-scale/)  
            [Rancher](https://rancher.com/)  
