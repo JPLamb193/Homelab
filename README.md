@@ -1,5 +1,5 @@
 # The Homelab Initiative
-Hardware:\n
+Hardware:  
            Odin - R7 5700g, 32GB, 1TB SSD  
            R730xd - 2x E5-2620v3, 32GB, 2TB SSD  
            R630 - 1x E5-2620v3, 12GB, 300GB HDD  
