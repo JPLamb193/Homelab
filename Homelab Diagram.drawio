@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T00:23:39.906Z" agent="5.0 (Windows)" etag="wNzZ0Gg26JTzjlgGqyNP" version="20.8.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-22T00:24:01.968Z" agent="5.0 (Windows)" etag="ZWKLsegUMLNdO7d6P_2z" version="20.8.18" type="github" pages="7">
   <diagram id="E1EfsuxhSvi0O3DrFGvF" name="Network Overview">
     <mxGraphModel dx="1152" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
         <mxCell id="tDwPno2oF0wt7ScMGr86-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.505;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tDwPno2oF0wt7ScMGr86-3" target="tDwPno2oF0wt7ScMGr86-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tDwPno2oF0wt7ScMGr86-3" value="Ryzen 7 5700G" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.connectors" vertex="1" parent="1">
+        <mxCell id="tDwPno2oF0wt7ScMGr86-3" value="Ryzen 7 5700G" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;align=right;fillColor=#00188D;shape=mxgraph.mscae.enterprise.connectors" vertex="1" parent="1">
           <mxGeometry x="400" y="560" width="50" height="34" as="geometry" />
         </mxCell>
         <mxCell id="tDwPno2oF0wt7ScMGr86-4" value="4TB 3.5&quot; HDD" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_generic" vertex="1" parent="1">
@@ -164,7 +164,7 @@
         <mxCell id="euYZeQNujgRJG-qXwOyV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.505;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="euYZeQNujgRJG-qXwOyV-8" target="euYZeQNujgRJG-qXwOyV-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="euYZeQNujgRJG-qXwOyV-8" value="Ryzen 7 5700G" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.connectors" vertex="1" parent="1">
+        <mxCell id="euYZeQNujgRJG-qXwOyV-8" value="Ryzen 7 5700G" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;align=right;fillColor=#00188D;shape=mxgraph.mscae.enterprise.connectors" vertex="1" parent="1">
           <mxGeometry x="400" y="560" width="50" height="34" as="geometry" />
         </mxCell>
         <mxCell id="euYZeQNujgRJG-qXwOyV-9" value="4TB 3.5&quot; HDD" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_generic" vertex="1" parent="1">
@@ -215,7 +215,7 @@
         <mxCell id="WTUsXe7EHXzarnpLnSN8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.505;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WTUsXe7EHXzarnpLnSN8-8" target="WTUsXe7EHXzarnpLnSN8-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WTUsXe7EHXzarnpLnSN8-8" value="Ryzen 7 5700G" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.connectors" vertex="1" parent="1">
+        <mxCell id="WTUsXe7EHXzarnpLnSN8-8" value="Ryzen 7 5700G" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;align=right;fillColor=#00188D;shape=mxgraph.mscae.enterprise.connectors" vertex="1" parent="1">
           <mxGeometry x="400" y="560" width="50" height="34" as="geometry" />
         </mxCell>
         <mxCell id="WTUsXe7EHXzarnpLnSN8-9" value="4TB 3.5&quot; HDD" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_generic" vertex="1" parent="1">
