@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T00:24:01.968Z" agent="5.0 (Windows)" etag="ZWKLsegUMLNdO7d6P_2z" version="20.8.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-22T00:27:37.761Z" agent="5.0 (Windows)" etag="49B_TPtlyBQizf3KDlPc" version="20.8.18" type="github" pages="7">
   <diagram id="E1EfsuxhSvi0O3DrFGvF" name="Network Overview">
     <mxGraphModel dx="1152" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -88,48 +88,50 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tDwPno2oF0wt7ScMGr86-1" value="SFP+ NIC, Dual port" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.network_card" vertex="1" parent="1">
-          <mxGeometry x="520" y="560" width="50" height="35" as="geometry" />
+        <mxCell id="ApBoAAum1uApdB_s47ig-1" value="SFP+ NIC, Dual port" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.network_card" vertex="1" parent="1">
+          <mxGeometry x="520" y="720" width="50" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="tDwPno2oF0wt7ScMGr86-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tDwPno2oF0wt7ScMGr86-2" target="tDwPno2oF0wt7ScMGr86-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tDwPno2oF0wt7ScMGr86-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.03;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tDwPno2oF0wt7ScMGr86-2" target="tDwPno2oF0wt7ScMGr86-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tDwPno2oF0wt7ScMGr86-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.01;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tDwPno2oF0wt7ScMGr86-2" target="tDwPno2oF0wt7ScMGr86-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tDwPno2oF0wt7ScMGr86-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.18;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tDwPno2oF0wt7ScMGr86-2" target="tDwPno2oF0wt7ScMGr86-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="240" y="450" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tDwPno2oF0wt7ScMGr86-2" value="mITX/mATX 2U Chassis, 4~ 3.5&quot; drives" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.device" vertex="1" parent="1">
+        <mxCell id="ApBoAAum1uApdB_s47ig-2" value="mITX/mATX 2U Chassis, 4~ 3.5&quot; drives" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.device" vertex="1" parent="1">
           <mxGeometry x="400" y="450" width="50" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="tDwPno2oF0wt7ScMGr86-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.505;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tDwPno2oF0wt7ScMGr86-3" target="tDwPno2oF0wt7ScMGr86-1">
+        <mxCell id="ApBoAAum1uApdB_s47ig-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.505;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ApBoAAum1uApdB_s47ig-5" target="ApBoAAum1uApdB_s47ig-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tDwPno2oF0wt7ScMGr86-3" value="Ryzen 7 5700G" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;align=right;fillColor=#00188D;shape=mxgraph.mscae.enterprise.connectors" vertex="1" parent="1">
-          <mxGeometry x="400" y="560" width="50" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="tDwPno2oF0wt7ScMGr86-4" value="4TB 3.5&quot; HDD" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_generic" vertex="1" parent="1">
-          <mxGeometry x="130" y="438" width="37" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="tDwPno2oF0wt7ScMGr86-9" value="M.2 NVMe for OS" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document" vertex="1" parent="1">
-          <mxGeometry x="220" y="360" width="40" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="tDwPno2oF0wt7ScMGr86-10" value="M.2 NVMe for Journaling" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document" vertex="1" parent="1">
-          <mxGeometry x="220" y="525" width="40" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="tDwPno2oF0wt7ScMGr86-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tDwPno2oF0wt7ScMGr86-16" target="tDwPno2oF0wt7ScMGr86-3">
+        <mxCell id="ApBoAAum1uApdB_s47ig-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.03;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ApBoAAum1uApdB_s47ig-5" target="ApBoAAum1uApdB_s47ig-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tDwPno2oF0wt7ScMGr86-16" value="32-64GB Ram" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.storage" vertex="1" parent="1">
-          <mxGeometry x="400" y="680" width="50" height="41" as="geometry" />
+        <mxCell id="ApBoAAum1uApdB_s47ig-5" value="Ryzen 7 5700G" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;align=right;fillColor=#00188D;shape=mxgraph.mscae.enterprise.connectors" vertex="1" parent="1">
+          <mxGeometry x="400" y="720" width="50" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ApBoAAum1uApdB_s47ig-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ApBoAAum1uApdB_s47ig-7" target="ApBoAAum1uApdB_s47ig-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApBoAAum1uApdB_s47ig-7" value="4TB 3.5&quot; HDD" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_generic" vertex="1" parent="1">
+          <mxGeometry x="114.5" y="700" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ApBoAAum1uApdB_s47ig-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ApBoAAum1uApdB_s47ig-9" target="ApBoAAum1uApdB_s47ig-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApBoAAum1uApdB_s47ig-9" value="M.2 NVMe for OS" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document" vertex="1" parent="1">
+          <mxGeometry x="111.5" y="490" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ApBoAAum1uApdB_s47ig-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ApBoAAum1uApdB_s47ig-11" target="ApBoAAum1uApdB_s47ig-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApBoAAum1uApdB_s47ig-11" value="M.2 NVMe for Journaling" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document" vertex="1" parent="1">
+          <mxGeometry x="110" y="589" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ApBoAAum1uApdB_s47ig-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ApBoAAum1uApdB_s47ig-13" target="ApBoAAum1uApdB_s47ig-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApBoAAum1uApdB_s47ig-13" value="32-64GB Ram" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.storage" vertex="1" parent="1">
+          <mxGeometry x="400" y="840" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ApBoAAum1uApdB_s47ig-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ApBoAAum1uApdB_s47ig-15" target="ApBoAAum1uApdB_s47ig-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApBoAAum1uApdB_s47ig-15" value="mITX/mATX motherboard" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.smartcard" vertex="1" parent="1">
+          <mxGeometry x="400" y="598" width="50" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -139,48 +141,50 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="euYZeQNujgRJG-qXwOyV-1" value="SFP+ NIC, Dual port" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.network_card" vertex="1" parent="1">
-          <mxGeometry x="520" y="560" width="50" height="35" as="geometry" />
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-1" value="SFP+ NIC, Dual port" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.network_card" vertex="1" parent="1">
+          <mxGeometry x="520" y="720" width="50" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="euYZeQNujgRJG-qXwOyV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="euYZeQNujgRJG-qXwOyV-6" target="euYZeQNujgRJG-qXwOyV-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="euYZeQNujgRJG-qXwOyV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.03;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="euYZeQNujgRJG-qXwOyV-6" target="euYZeQNujgRJG-qXwOyV-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="euYZeQNujgRJG-qXwOyV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.01;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="euYZeQNujgRJG-qXwOyV-6" target="euYZeQNujgRJG-qXwOyV-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="euYZeQNujgRJG-qXwOyV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.18;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="euYZeQNujgRJG-qXwOyV-6" target="euYZeQNujgRJG-qXwOyV-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="240" y="450" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="euYZeQNujgRJG-qXwOyV-6" value="mITX/mATX 2U Chassis, 4~ 3.5&quot; drives" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.device" vertex="1" parent="1">
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-2" value="mITX/mATX 2U Chassis, 4~ 3.5&quot; drives" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.device" vertex="1" parent="1">
           <mxGeometry x="400" y="450" width="50" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="euYZeQNujgRJG-qXwOyV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.505;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="euYZeQNujgRJG-qXwOyV-8" target="euYZeQNujgRJG-qXwOyV-1">
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.505;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Hj6cFRKGHhb9x1Fbf2D3-5" target="Hj6cFRKGHhb9x1Fbf2D3-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="euYZeQNujgRJG-qXwOyV-8" value="Ryzen 7 5700G" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;align=right;fillColor=#00188D;shape=mxgraph.mscae.enterprise.connectors" vertex="1" parent="1">
-          <mxGeometry x="400" y="560" width="50" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="euYZeQNujgRJG-qXwOyV-9" value="4TB 3.5&quot; HDD" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_generic" vertex="1" parent="1">
-          <mxGeometry x="130" y="438" width="37" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="euYZeQNujgRJG-qXwOyV-10" value="M.2 NVMe for OS" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document" vertex="1" parent="1">
-          <mxGeometry x="220" y="360" width="40" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="euYZeQNujgRJG-qXwOyV-11" value="M.2 NVMe for Journaling" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document" vertex="1" parent="1">
-          <mxGeometry x="220" y="525" width="40" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="euYZeQNujgRJG-qXwOyV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="euYZeQNujgRJG-qXwOyV-13" target="euYZeQNujgRJG-qXwOyV-8">
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.03;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hj6cFRKGHhb9x1Fbf2D3-5" target="Hj6cFRKGHhb9x1Fbf2D3-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="euYZeQNujgRJG-qXwOyV-13" value="32-64GB Ram" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.storage" vertex="1" parent="1">
-          <mxGeometry x="400" y="680" width="50" height="41" as="geometry" />
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-5" value="Ryzen 7 5700G" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;align=right;fillColor=#00188D;shape=mxgraph.mscae.enterprise.connectors" vertex="1" parent="1">
+          <mxGeometry x="400" y="720" width="50" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hj6cFRKGHhb9x1Fbf2D3-7" target="Hj6cFRKGHhb9x1Fbf2D3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-7" value="4TB 3.5&quot; HDD" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_generic" vertex="1" parent="1">
+          <mxGeometry x="114.5" y="700" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hj6cFRKGHhb9x1Fbf2D3-9" target="Hj6cFRKGHhb9x1Fbf2D3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-9" value="M.2 NVMe for OS" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document" vertex="1" parent="1">
+          <mxGeometry x="111.5" y="490" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hj6cFRKGHhb9x1Fbf2D3-11" target="Hj6cFRKGHhb9x1Fbf2D3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-11" value="M.2 NVMe for Journaling" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document" vertex="1" parent="1">
+          <mxGeometry x="110" y="589" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hj6cFRKGHhb9x1Fbf2D3-13" target="Hj6cFRKGHhb9x1Fbf2D3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-13" value="32-64GB Ram" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.storage" vertex="1" parent="1">
+          <mxGeometry x="400" y="840" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hj6cFRKGHhb9x1Fbf2D3-15" target="Hj6cFRKGHhb9x1Fbf2D3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hj6cFRKGHhb9x1Fbf2D3-15" value="mITX/mATX motherboard" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.smartcard" vertex="1" parent="1">
+          <mxGeometry x="400" y="598" width="50" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -191,23 +195,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="WTUsXe7EHXzarnpLnSN8-1" value="SFP+ NIC, Dual port" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.network_card" vertex="1" parent="1">
-          <mxGeometry x="520" y="560" width="50" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="WTUsXe7EHXzarnpLnSN8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WTUsXe7EHXzarnpLnSN8-6" target="WTUsXe7EHXzarnpLnSN8-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WTUsXe7EHXzarnpLnSN8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.03;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WTUsXe7EHXzarnpLnSN8-6" target="WTUsXe7EHXzarnpLnSN8-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WTUsXe7EHXzarnpLnSN8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.01;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WTUsXe7EHXzarnpLnSN8-6" target="WTUsXe7EHXzarnpLnSN8-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WTUsXe7EHXzarnpLnSN8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.18;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WTUsXe7EHXzarnpLnSN8-6" target="WTUsXe7EHXzarnpLnSN8-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="240" y="450" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="520" y="720" width="50" height="35" as="geometry" />
         </mxCell>
         <mxCell id="WTUsXe7EHXzarnpLnSN8-6" value="mITX/mATX 2U Chassis, 4~ 3.5&quot; drives" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.device" vertex="1" parent="1">
           <mxGeometry x="400" y="450" width="50" height="26" as="geometry" />
@@ -215,32 +203,77 @@
         <mxCell id="WTUsXe7EHXzarnpLnSN8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.505;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WTUsXe7EHXzarnpLnSN8-8" target="WTUsXe7EHXzarnpLnSN8-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="NJ7LlG7DpJsIjzuGmJOf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.03;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WTUsXe7EHXzarnpLnSN8-8" target="NJ7LlG7DpJsIjzuGmJOf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WTUsXe7EHXzarnpLnSN8-8" value="Ryzen 7 5700G" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;align=right;fillColor=#00188D;shape=mxgraph.mscae.enterprise.connectors" vertex="1" parent="1">
-          <mxGeometry x="400" y="560" width="50" height="34" as="geometry" />
+          <mxGeometry x="400" y="720" width="50" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NJ7LlG7DpJsIjzuGmJOf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WTUsXe7EHXzarnpLnSN8-9" target="NJ7LlG7DpJsIjzuGmJOf-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WTUsXe7EHXzarnpLnSN8-9" value="4TB 3.5&quot; HDD" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_generic" vertex="1" parent="1">
-          <mxGeometry x="130" y="438" width="37" height="50" as="geometry" />
+          <mxGeometry x="114.5" y="700" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NJ7LlG7DpJsIjzuGmJOf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WTUsXe7EHXzarnpLnSN8-10" target="NJ7LlG7DpJsIjzuGmJOf-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WTUsXe7EHXzarnpLnSN8-10" value="M.2 NVMe for OS" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document" vertex="1" parent="1">
-          <mxGeometry x="220" y="360" width="40" height="50" as="geometry" />
+          <mxGeometry x="111.5" y="490" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NJ7LlG7DpJsIjzuGmJOf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WTUsXe7EHXzarnpLnSN8-11" target="NJ7LlG7DpJsIjzuGmJOf-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WTUsXe7EHXzarnpLnSN8-11" value="M.2 NVMe for Journaling" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document" vertex="1" parent="1">
-          <mxGeometry x="220" y="525" width="40" height="50" as="geometry" />
+          <mxGeometry x="110" y="589" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WTUsXe7EHXzarnpLnSN8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WTUsXe7EHXzarnpLnSN8-13" target="WTUsXe7EHXzarnpLnSN8-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WTUsXe7EHXzarnpLnSN8-13" value="32-64GB Ram" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.storage" vertex="1" parent="1">
-          <mxGeometry x="400" y="680" width="50" height="41" as="geometry" />
+          <mxGeometry x="400" y="840" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="NJ7LlG7DpJsIjzuGmJOf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NJ7LlG7DpJsIjzuGmJOf-4" target="WTUsXe7EHXzarnpLnSN8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJ7LlG7DpJsIjzuGmJOf-4" value="mITX/mATX motherboard" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.smartcard" vertex="1" parent="1">
+          <mxGeometry x="400" y="598" width="50" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="f75ZTOVikK77dWQOuikO" name="JellyHive">
-    <mxGraphModel dx="1232" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1152" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AMo5JXxU8uF4BOOdNNoE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AMo5JXxU8uF4BOOdNNoE-1" target="AMo5JXxU8uF4BOOdNNoE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMo5JXxU8uF4BOOdNNoE-1" value="SFP+ NIC, Dual port" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.network_card" vertex="1" parent="1">
+          <mxGeometry x="520" y="560" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="AMo5JXxU8uF4BOOdNNoE-6" value="mITX/mATX 2U Chassis" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.device" vertex="1" parent="1">
+          <mxGeometry x="400" y="450" width="50" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AMo5JXxU8uF4BOOdNNoE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.03;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AMo5JXxU8uF4BOOdNNoE-8" target="AMo5JXxU8uF4BOOdNNoE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMo5JXxU8uF4BOOdNNoE-8" value="i5-11400" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;align=right;fillColor=#00188D;shape=mxgraph.mscae.enterprise.connectors" vertex="1" parent="1">
+          <mxGeometry x="400" y="560" width="50" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="AMo5JXxU8uF4BOOdNNoE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.03;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AMo5JXxU8uF4BOOdNNoE-10" target="AMo5JXxU8uF4BOOdNNoE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMo5JXxU8uF4BOOdNNoE-10" value="M.2 NVMe for OS" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document" vertex="1" parent="1">
+          <mxGeometry x="270" y="438" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AMo5JXxU8uF4BOOdNNoE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AMo5JXxU8uF4BOOdNNoE-13" target="AMo5JXxU8uF4BOOdNNoE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMo5JXxU8uF4BOOdNNoE-13" value="32-64GB Ram" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.storage" vertex="1" parent="1">
+          <mxGeometry x="400" y="680" width="50" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
