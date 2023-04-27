@@ -1,10 +1,10 @@
 # Homelab Documentation
 
 ## Hardware:  
-Zeus - Supermicro H11, ADM Epyc 32 core, 64GB ECC RAM, 1.6TB Intel DC P3600, 960GB Samsung PM883
-Poseidon - ASRock B550M, Ryzen 5700, 64GB ECC RAM, 1.6TB Intel DC P3600, 960GB Samsung PM883
-Hades - ASRock B550M, Ryzen 5600x, 64GB ECC RAM, 1.6TB Intel DC P3600, 960GB Samsung PM883
-Hera - 
+Zeus - Supermicro H11, ADM Epyc 32 core, 64GB ECC RAM, 1.6TB Intel DC P3600, 960GB Samsung PM883  
+Poseidon - ASRock B550M, Ryzen 5700, 64GB ECC RAM, 1.6TB Intel DC P3600, 960GB Samsung PM883  
+Hades - ASRock B550M, Ryzen 5600x, 64GB ECC RAM, 1.6TB Intel DC P3600, 960GB Samsung PM883  
+Hera -  
 
 
 ## Services:  
@@ -27,19 +27,19 @@ Hera -
 [Jellyfin](https://jellyfin.org/)  
 [Nextcloud](https://nextcloud.com/)  
 [Keycloak](https://www.keycloak.org/)  
-[Authentik](https://goauthentik.io/)
+[Authentik](https://goauthentik.io/)  
 
 ## Storage:  
-All 5 main nodes are hyperconvered, running Ceph for storage. Each node has 1, 1TB SSD that is housing the OS, and a 1.6TB NVMe SSD that is being used in a Ceph pool to house VMs, containers, etc.
+All 5 main nodes are hyperconvered, running Ceph for storage. Each node has 1, 1TB SSD that is housing the OS, and a 1.6TB NVMe SSD that is being used in a Ceph pool to house VMs, containers, etc.  
 
-A 0 replication Ceph pool with a few spinning rust drives will house the mass media from sonarr, radarr, etc.
+A 0 replication Ceph pool with a few spinning rust drives will house the mass media from sonarr, radarr, etc.  
 
-Separate storage pool for backups WIP.
+Separate storage pool for backups WIP.  
 
-### 3-2-1 backup philosophy:
-3 copies of all data that I want to keep
-2 on-prem copies- On-Prem copies covered by Ceph, and the backup(s)
-1 Copy in the cloud (Wasabi or Backblaze) - WIP, may be too expensive to be worth doing for a small scale home setup like this.
+### 3-2-1 backup philosophy:  
+3 copies of all data that I want to keep  
+2 on-prem copies- On-Prem copies covered by Ceph, and the backup(s)  
+1 Copy in the cloud (Wasabi or Backblaze) - WIP, may be too expensive to be worth doing for a small scale home setup like this.  
 Any exceptions to this policy should be documented and justified  
 Initial exceptions: Movies/Mass Media  
-Special Cases: Personal media (HDD copy and cloud copy)
+Special Cases: Personal media (HDD copy and cloud copy)  
