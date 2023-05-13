@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T08:22:33.736Z" agent="5.0 (Windows)" etag="x8AvcR6I30gSK7cEiWQ8" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-05-13T08:23:31.248Z" agent="5.0 (Windows)" etag="7bqPjf3aaJk6a1wL4lfA" version="20.8.23" type="github" pages="8">
   <diagram id="Quo61Ri9_a2yAbudEfrT" name="Rack">
     <mxGraphModel dx="1232" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -8,10 +8,10 @@
           <mxGeometry x="300" y="170" width="206" height="450" as="geometry" />
         </mxCell>
         <mxCell id="zNo3CK7nKQr4pIhICBur-23" value="Switch" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.switches_1;" parent="zNo3CK7nKQr4pIhICBur-1" vertex="1">
-          <mxGeometry x="33" y="21" width="164" height="30" as="geometry" />
+          <mxGeometry x="33" y="21" width="164" height="19" as="geometry" />
         </mxCell>
         <mxCell id="zNo3CK7nKQr4pIhICBur-21" value="Patch Panel" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.cat5e_rack_mount_patch_panel_24_ports;" parent="zNo3CK7nKQr4pIhICBur-1" vertex="1">
-          <mxGeometry x="33" y="51" width="164" height="15" as="geometry" />
+          <mxGeometry x="33" y="40" width="164" height="15" as="geometry" />
         </mxCell>
         <mxCell id="zNo3CK7nKQr4pIhICBur-26" value="Turing Pi" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.dell.dell_poweredge_1u;" parent="zNo3CK7nKQr4pIhICBur-1" vertex="1">
           <mxGeometry x="33" y="140" width="164" height="15" as="geometry" />
